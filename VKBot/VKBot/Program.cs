@@ -24,18 +24,10 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
     .CreateLogger();
 
-builder.Services.AddControllers().AddNewtonsoftJson();
-
-builder.Services.AddControllers(options =>
-{
-    options.ModelBinderProviders.Insert(0, new VkMessageBinderProvider());
-});
-
 builder.Host.UseSerilog();
 
 var app = builder.Build();
 
-//app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();

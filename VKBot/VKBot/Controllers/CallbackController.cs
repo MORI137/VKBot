@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using System.IO;
 using System.Text;
+using System.Text.Json;
 using VKBot.Models;
 using VkNet.Abstractions;
 using VkNet.Enums.StringEnums;
@@ -17,53 +18,43 @@ namespace VKBot.Controllers
     {
         private readonly ILogger<CallbackController> _logger;
         private readonly IConfiguration _configuration;
-        private readonly IVkApi _vkApi;
 
-        public CallbackController(IVkApi vkApi, IConfiguration configuration, ILogger<CallbackController> logger)
+        public CallbackController(IConfiguration configuration, ILogger<CallbackController> logger)
         {
-            _vkApi = vkApi;
             _configuration = configuration;
             _logger = logger;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Callback([ModelBinder(BinderType = typeof(VkMessageModelBinder))][FromBody] Message msg)
+        public async Task<IActionResult> Callback([FromBody] JsonElement json)
         {
-            using (var reader = new StreamReader(Request.Body))
+            if (json.TryGetProperty("type", out JsonElement typeElement))
             {
-                var requestBody = await reader.ReadToEndAsync();
-                _logger.LogError("Callback function" + requestBody);
-                _logger.LogError(msg.PeerId.ToString());
+                var type = typeElement.GetString();
+                if(type == "confirmation")
+                {
+                    return Ok(_configuration["Config:Confirmation"]);
+                }
+                else if(type == "message_new")
+                {
+                    return Method(ToObject<Models.Message>(json));
+                }
+                else if(type == "photo")
+                {
+                    return BadRequest();
+                }
             }
-           
+            return BadRequest();
+        }
 
-            //_logger.LogError("PEEEEEEEEEEEEEEEEEEER: " + msg.PeerId);
+        private IActionResult Method(Models.Message? url)
+        {
+            return Ok();
+        }
 
-            //switch (msg.Type)
-            //{
-            //    case "confirmation":
-
-            //        return Ok(_configuration["Config:Confirmation"]);
-            //        /*case "message_new":
-            //            {
-            //                _vkApi.Messages.Send(new MessagesSendParams
-            //                {
-            //                    RandomId = new DateTime().Millisecond,
-            //                    PeerId = msg.PeerId.Value,
-            //                    Message = msg.Text
-            //                });
-            //                break;
-            //            }*/
-            //}
-            
-            _vkApi.Messages.Send(new MessagesSendParams
-            {
-                RandomId = new DateTime().Millisecond,
-                PeerId = 651565729,
-                Message = "Лох",
-                
-            });
-            return Ok("ok");
+        private T? ToObject<T>(JsonElement json)
+        {
+            return JsonSerializer.Deserialize<T>(json.ToString());
         }
     }
 }

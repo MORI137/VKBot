@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VKBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84374918bb24fb9c9ecaffd98e14d3006ccf8fc9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf8076cc9cc7b091dda52d6aa465823a7e4972fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("VKBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VKBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

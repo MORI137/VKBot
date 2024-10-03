@@ -1,0 +1,916 @@
+2024-10-04 00:02:53.216 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-04 00:02:53.364 +03:00 [DBG] Hosting starting
+2024-10-04 00:02:53.426 +03:00 [WRN] The WebRootPath was not found: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\wwwroot. Static files may be unavailable.
+2024-10-04 00:02:53.523 +03:00 [INF] Now listening on: http://localhost:5137
+2024-10-04 00:02:53.531 +03:00 [DBG] Loaded hosting startup assembly VKBot
+2024-10-04 00:02:53.540 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-04 00:02:53.546 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-04 00:02:53.555 +03:00 [DBG] Connection id "0HN73TQVP5CNF" accepted.
+2024-10-04 00:02:53.564 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-04 00:02:53.580 +03:00 [DBG] Connection id "0HN73TQVP5CNF" started.
+2024-10-04 00:02:53.589 +03:00 [INF] Hosting environment: Development
+2024-10-04 00:02:53.641 +03:00 [INF] Content root path: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot
+2024-10-04 00:02:53.668 +03:00 [DBG] Hosting started
+2024-10-04 00:02:53.977 +03:00 [DBG] Connection id "0HN73TQVP5CNF" received FIN.
+2024-10-04 00:02:53.982 +03:00 [DBG] Connection id "0HN73TQVP5CNF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:02:53.988 +03:00 [DBG] Connection id "0HN73TQVP5CNF" disconnecting.
+2024-10-04 00:02:53.992 +03:00 [DBG] Connection id "0HN73TQVP5CNF" stopped.
+2024-10-04 00:02:54.993 +03:00 [DBG] Connection id "0HN73TQVP5CNG" accepted.
+2024-10-04 00:02:54.995 +03:00 [DBG] Connection id "0HN73TQVP5CNG" started.
+2024-10-04 00:02:54.996 +03:00 [DBG] Connection id "0HN73TQVP5CNH" accepted.
+2024-10-04 00:02:55.004 +03:00 [DBG] Connection id "0HN73TQVP5CNH" started.
+2024-10-04 00:02:55.034 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5137/ - null null
+2024-10-04 00:02:55.458 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-04 00:02:55.463 +03:00 [DBG] The request path / does not match a supported file type
+2024-10-04 00:02:55.473 +03:00 [DBG] No candidates found for the request path '/'
+2024-10-04 00:02:55.475 +03:00 [DBG] Request did not match any endpoints
+2024-10-04 00:02:55.488 +03:00 [DBG] Connection id "0HN73TQVP5CNG" completed keep alive response.
+2024-10-04 00:02:55.491 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 null 462.4492ms
+2024-10-04 00:02:55.495 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-10-04 00:03:20.119 +03:00 [DBG] Connection id "0HN73TQVP5CNI" accepted.
+2024-10-04 00:03:20.127 +03:00 [DBG] Connection id "0HN73TQVP5CNI" started.
+2024-10-04 00:03:20.130 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 110
+2024-10-04 00:03:20.132 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:03:20.135 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:03:20.139 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:03:20.141 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:03:20.142 +03:00 [DBG] Request matched endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:03:20.149 +03:00 [DBG] Connection id "0HN73TQVP5CNI", Request id "0HN73TQVP5CNI:00000001": started reading request body.
+2024-10-04 00:03:20.152 +03:00 [DBG] Connection id "0HN73TQVP5CNI", Request id "0HN73TQVP5CNI:00000001": done reading request body.
+2024-10-04 00:03:20.310 +03:00 [ERR] Middleware: {
+  "group_id": 227681680,
+  "event_id": "85f7efb408a13017d49887d6a1108650fe114dd1",
+  "v": "5.199",
+  "type": "confirmation"
+}
+2024-10-04 00:03:20.313 +03:00 [INF] Executing endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:03:20.349 +03:00 [INF] Route matched with {action = "Callback", controller = "Callback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Callback() on controller VKBot.Controllers.CallbackController (VKBot).
+2024-10-04 00:03:20.355 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-04 00:03:20.357 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-04 00:03:20.359 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-04 00:03:20.362 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-04 00:03:20.366 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-04 00:03:20.369 +03:00 [DBG] Executing controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:03:20.372 +03:00 [DBG] Executed controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:03:20.377 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-04 00:03:20.382 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-04 00:03:20.385 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-04 00:03:20.386 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-04 00:03:20.390 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-10-04 00:03:20.393 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-04 00:03:20.398 +03:00 [INF] Executed action VKBot.Controllers.CallbackController.Callback (VKBot) in 27.9325ms
+2024-10-04 00:03:20.400 +03:00 [INF] Executed endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:03:20.401 +03:00 [DBG] Connection id "0HN73TQVP5CNI" completed keep alive response.
+2024-10-04 00:03:20.403 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 200 null text/plain; charset=utf-8 273.6998ms
+2024-10-04 00:03:56.238 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-04 00:03:56.331 +03:00 [DBG] Hosting starting
+2024-10-04 00:03:56.400 +03:00 [WRN] The WebRootPath was not found: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\wwwroot. Static files may be unavailable.
+2024-10-04 00:03:56.482 +03:00 [INF] Now listening on: http://localhost:5137
+2024-10-04 00:03:56.484 +03:00 [DBG] Loaded hosting startup assembly VKBot
+2024-10-04 00:03:56.485 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-04 00:03:56.486 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-04 00:03:56.487 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-04 00:03:56.488 +03:00 [INF] Hosting environment: Development
+2024-10-04 00:03:56.489 +03:00 [INF] Content root path: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot
+2024-10-04 00:03:56.490 +03:00 [DBG] Hosting started
+2024-10-04 00:03:56.896 +03:00 [DBG] Connection id "0HN73TRIL7IKA" accepted.
+2024-10-04 00:03:56.898 +03:00 [DBG] Connection id "0HN73TRIL7IKA" started.
+2024-10-04 00:03:56.905 +03:00 [DBG] Connection id "0HN73TRIL7IKB" accepted.
+2024-10-04 00:03:56.906 +03:00 [DBG] Connection id "0HN73TRIL7IKB" started.
+2024-10-04 00:03:56.921 +03:00 [DBG] Connection id "0HN73TRIL7IKB" received FIN.
+2024-10-04 00:03:56.921 +03:00 [DBG] Connection id "0HN73TRIL7IKA" received FIN.
+2024-10-04 00:03:56.929 +03:00 [DBG] Connection id "0HN73TRIL7IKB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:03:56.929 +03:00 [DBG] Connection id "0HN73TRIL7IKA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:03:56.932 +03:00 [DBG] Connection id "0HN73TRIL7IKB" disconnecting.
+2024-10-04 00:03:56.932 +03:00 [DBG] Connection id "0HN73TRIL7IKA" disconnecting.
+2024-10-04 00:03:56.937 +03:00 [DBG] Connection id "0HN73TRIL7IKB" stopped.
+2024-10-04 00:03:56.937 +03:00 [DBG] Connection id "0HN73TRIL7IKA" stopped.
+2024-10-04 00:03:57.170 +03:00 [DBG] Connection id "0HN73TRIL7IKC" accepted.
+2024-10-04 00:03:57.172 +03:00 [DBG] Connection id "0HN73TRIL7IKC" started.
+2024-10-04 00:03:57.174 +03:00 [DBG] Connection id "0HN73TRIL7IKD" accepted.
+2024-10-04 00:03:57.175 +03:00 [DBG] Connection id "0HN73TRIL7IKD" started.
+2024-10-04 00:03:57.200 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5137/ - null null
+2024-10-04 00:03:57.300 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-04 00:03:57.305 +03:00 [DBG] The request path / does not match a supported file type
+2024-10-04 00:03:57.316 +03:00 [DBG] No candidates found for the request path '/'
+2024-10-04 00:03:57.317 +03:00 [DBG] Request did not match any endpoints
+2024-10-04 00:03:57.330 +03:00 [DBG] Connection id "0HN73TRIL7IKC" completed keep alive response.
+2024-10-04 00:03:57.332 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 null 135.8141ms
+2024-10-04 00:03:57.337 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-10-04 00:04:06.149 +03:00 [DBG] Connection id "0HN73TRIL7IKE" accepted.
+2024-10-04 00:04:06.154 +03:00 [DBG] Connection id "0HN73TRIL7IKE" started.
+2024-10-04 00:04:06.162 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 110
+2024-10-04 00:04:06.165 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:04:06.172 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:04:06.177 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:04:06.178 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:04:06.180 +03:00 [DBG] Request matched endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:04:06.184 +03:00 [DBG] Connection id "0HN73TRIL7IKE", Request id "0HN73TRIL7IKE:00000001": started reading request body.
+2024-10-04 00:04:06.186 +03:00 [DBG] Connection id "0HN73TRIL7IKE", Request id "0HN73TRIL7IKE:00000001": done reading request body.
+2024-10-04 00:04:06.307 +03:00 [ERR] Middleware: {
+  "group_id": 227681680,
+  "event_id": "9031462beb71a260e7245da89f1eeea96abdaa78",
+  "v": "5.199",
+  "type": "confirmation"
+}
+2024-10-04 00:04:06.309 +03:00 [INF] Executing endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:04:06.318 +03:00 [DBG] Connection id "0HN73TRIL7IKF" accepted.
+2024-10-04 00:04:06.319 +03:00 [DBG] Connection id "0HN73TRIL7IKF" started.
+2024-10-04 00:04:06.320 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 214
+2024-10-04 00:04:06.322 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:04:06.322 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:04:06.323 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:04:06.328 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:04:06.333 +03:00 [DBG] Request matched endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:04:06.334 +03:00 [DBG] Connection id "0HN73TRIL7IKF", Request id "0HN73TRIL7IKF:00000001": started reading request body.
+2024-10-04 00:04:06.334 +03:00 [DBG] Connection id "0HN73TRIL7IKF", Request id "0HN73TRIL7IKF:00000001": done reading request body.
+2024-10-04 00:04:06.336 +03:00 [ERR] Middleware: {
+  "group_id": 227681680,
+  "type": "message_read",
+  "event_id": "5dc3436fdc34f2d974f6db28d987ab730eeb7d34",
+  "v": "5.199",
+  "object": {
+    "from_id": 651565729,
+    "peer_id": -227681680,
+    "read_message_id": 198,
+    "conversation_message_id": 194
+  }
+}
+2024-10-04 00:04:06.337 +03:00 [INF] Executing endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:04:06.351 +03:00 [INF] Route matched with {action = "Callback", controller = "Callback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Callback() on controller VKBot.Controllers.CallbackController (VKBot).
+2024-10-04 00:04:06.351 +03:00 [INF] Route matched with {action = "Callback", controller = "Callback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Callback() on controller VKBot.Controllers.CallbackController (VKBot).
+2024-10-04 00:04:06.356 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-04 00:04:06.356 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-04 00:04:06.357 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-04 00:04:06.358 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-04 00:04:06.359 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-04 00:04:06.360 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-04 00:04:06.361 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-04 00:04:06.362 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-04 00:04:06.363 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-04 00:04:06.366 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-04 00:04:06.366 +03:00 [DBG] Executing controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:04:06.367 +03:00 [DBG] Executing controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:04:06.368 +03:00 [DBG] Executed controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:04:06.373 +03:00 [ERR] 1
+2024-10-04 00:04:06.377 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-04 00:04:06.382 +03:00 [DBG] Executed controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:04:06.384 +03:00 [ERR] 1
+2024-10-04 00:04:06.385 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-04 00:04:06.385 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-04 00:04:06.386 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-04 00:04:06.387 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-04 00:04:06.387 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-04 00:04:06.388 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-04 00:04:06.388 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-04 00:04:06.390 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-10-04 00:04:06.391 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-10-04 00:04:06.392 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-04 00:04:06.393 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-04 00:04:06.398 +03:00 [INF] Executed action VKBot.Controllers.CallbackController.Callback (VKBot) in 29.0451ms
+2024-10-04 00:04:06.398 +03:00 [INF] Executed action VKBot.Controllers.CallbackController.Callback (VKBot) in 30.8327ms
+2024-10-04 00:04:06.400 +03:00 [INF] Executed endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:04:06.401 +03:00 [INF] Executed endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:04:06.402 +03:00 [DBG] Connection id "0HN73TRIL7IKE" completed keep alive response.
+2024-10-04 00:04:06.402 +03:00 [DBG] Connection id "0HN73TRIL7IKF" completed keep alive response.
+2024-10-04 00:04:06.404 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 200 null text/plain; charset=utf-8 241.835ms
+2024-10-04 00:04:06.404 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 200 null text/plain; charset=utf-8 84.4645ms
+2024-10-04 00:04:41.974 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-04 00:04:42.065 +03:00 [DBG] Hosting starting
+2024-10-04 00:04:42.114 +03:00 [WRN] The WebRootPath was not found: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\wwwroot. Static files may be unavailable.
+2024-10-04 00:04:42.182 +03:00 [INF] Now listening on: http://localhost:5137
+2024-10-04 00:04:42.184 +03:00 [DBG] Loaded hosting startup assembly VKBot
+2024-10-04 00:04:42.184 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-04 00:04:42.185 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-04 00:04:42.186 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-04 00:04:42.188 +03:00 [INF] Hosting environment: Development
+2024-10-04 00:04:42.189 +03:00 [INF] Content root path: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot
+2024-10-04 00:04:42.190 +03:00 [DBG] Hosting started
+2024-10-04 00:04:42.486 +03:00 [DBG] Connection id "0HN73TS080J35" accepted.
+2024-10-04 00:04:42.488 +03:00 [DBG] Connection id "0HN73TS080J35" started.
+2024-10-04 00:04:42.496 +03:00 [DBG] Connection id "0HN73TS080J36" accepted.
+2024-10-04 00:04:42.498 +03:00 [DBG] Connection id "0HN73TS080J36" started.
+2024-10-04 00:04:42.529 +03:00 [DBG] Connection id "0HN73TS080J35" received FIN.
+2024-10-04 00:04:42.529 +03:00 [DBG] Connection id "0HN73TS080J36" received FIN.
+2024-10-04 00:04:42.537 +03:00 [DBG] Connection id "0HN73TS080J35" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:04:42.537 +03:00 [DBG] Connection id "0HN73TS080J36" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:04:42.540 +03:00 [DBG] Connection id "0HN73TS080J35" disconnecting.
+2024-10-04 00:04:42.546 +03:00 [DBG] Connection id "0HN73TS080J36" disconnecting.
+2024-10-04 00:04:42.547 +03:00 [DBG] Connection id "0HN73TS080J35" stopped.
+2024-10-04 00:04:42.548 +03:00 [DBG] Connection id "0HN73TS080J36" stopped.
+2024-10-04 00:04:42.815 +03:00 [DBG] Connection id "0HN73TS080J37" accepted.
+2024-10-04 00:04:42.817 +03:00 [DBG] Connection id "0HN73TS080J37" started.
+2024-10-04 00:04:42.840 +03:00 [DBG] Connection id "0HN73TS080J38" accepted.
+2024-10-04 00:04:42.842 +03:00 [DBG] Connection id "0HN73TS080J38" started.
+2024-10-04 00:04:42.846 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5137/ - null null
+2024-10-04 00:04:42.969 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-04 00:04:42.974 +03:00 [DBG] The request path / does not match a supported file type
+2024-10-04 00:04:42.986 +03:00 [DBG] No candidates found for the request path '/'
+2024-10-04 00:04:42.988 +03:00 [DBG] Request did not match any endpoints
+2024-10-04 00:04:43.001 +03:00 [DBG] Connection id "0HN73TS080J37" completed keep alive response.
+2024-10-04 00:04:43.004 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 null 162.1607ms
+2024-10-04 00:04:43.009 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-10-04 00:04:52.211 +03:00 [DBG] Connection id "0HN73TS080J39" accepted.
+2024-10-04 00:04:52.213 +03:00 [DBG] Connection id "0HN73TS080J39" started.
+2024-10-04 00:04:52.215 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 110
+2024-10-04 00:04:52.218 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:04:52.223 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:04:52.228 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:04:52.230 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:04:52.232 +03:00 [DBG] Request matched endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:04:52.237 +03:00 [DBG] Connection id "0HN73TS080J39", Request id "0HN73TS080J39:00000001": started reading request body.
+2024-10-04 00:04:52.239 +03:00 [DBG] Connection id "0HN73TS080J39", Request id "0HN73TS080J39:00000001": done reading request body.
+2024-10-04 00:04:52.348 +03:00 [ERR] Middleware: {
+  "group_id": 227681680,
+  "event_id": "0ac3b94ffc3967c4e02b2175aceee97d2d754b0e",
+  "v": "5.199",
+  "type": "confirmation"
+}
+2024-10-04 00:04:52.351 +03:00 [INF] Executing endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:04:52.387 +03:00 [INF] Route matched with {action = "Callback", controller = "Callback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Callback(System.String) on controller VKBot.Controllers.CallbackController (VKBot).
+2024-10-04 00:04:52.390 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-04 00:04:52.391 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-04 00:04:52.394 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-04 00:04:52.396 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-04 00:04:52.398 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-04 00:04:52.402 +03:00 [DBG] Executing controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:04:52.403 +03:00 [DBG] Executed controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:04:52.407 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.String' ...
+2024-10-04 00:04:52.409 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.String' using the name '' in request data ...
+2024-10-04 00:04:52.411 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'a' of type 'System.String'.
+2024-10-04 00:04:52.413 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.String'.
+2024-10-04 00:04:52.414 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.String'.
+2024-10-04 00:04:52.415 +03:00 [DBG] Attempting to validate the bound parameter 'a' of type 'System.String' ...
+2024-10-04 00:04:52.420 +03:00 [DBG] Done attempting to validate the bound parameter 'a' of type 'System.String'.
+2024-10-04 00:04:52.422 +03:00 [DBG] The request has model state errors, returning an error response.
+2024-10-04 00:04:52.424 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-10-04 00:04:52.427 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-04 00:04:52.430 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-04 00:04:52.431 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-04 00:04:52.434 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-04 00:04:52.435 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-10-04 00:04:52.498 +03:00 [INF] Executed action VKBot.Controllers.CallbackController.Callback (VKBot) in 95.6704ms
+2024-10-04 00:04:52.499 +03:00 [INF] Executed endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:04:52.502 +03:00 [DBG] Connection id "0HN73TS080J39" completed keep alive response.
+2024-10-04 00:04:52.504 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 400 null application/problem+json; charset=utf-8 289.0262ms
+2024-10-04 00:05:03.247 +03:00 [DBG] Connection id "0HN73TS080J3A" accepted.
+2024-10-04 00:05:03.248 +03:00 [DBG] Connection id "0HN73TS080J3A" started.
+2024-10-04 00:05:03.250 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 110
+2024-10-04 00:05:03.253 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:05:03.254 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:05:03.256 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:05:03.258 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:05:03.259 +03:00 [DBG] Request matched endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:05:03.260 +03:00 [DBG] Connection id "0HN73TS080J3A", Request id "0HN73TS080J3A:00000001": started reading request body.
+2024-10-04 00:05:03.261 +03:00 [DBG] Connection id "0HN73TS080J3A", Request id "0HN73TS080J3A:00000001": done reading request body.
+2024-10-04 00:05:03.262 +03:00 [ERR] Middleware: {
+  "group_id": 227681680,
+  "event_id": "40ff51cc27fee5af7a05ae642d7b309c2916fb10",
+  "v": "5.199",
+  "type": "confirmation"
+}
+2024-10-04 00:05:03.263 +03:00 [INF] Executing endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:05:03.264 +03:00 [INF] Route matched with {action = "Callback", controller = "Callback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Callback(System.String) on controller VKBot.Controllers.CallbackController (VKBot).
+2024-10-04 00:05:03.266 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-04 00:05:03.267 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-04 00:05:03.269 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-04 00:05:03.271 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-04 00:05:03.272 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-04 00:05:03.273 +03:00 [DBG] Executing controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:05:03.275 +03:00 [DBG] Executed controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:05:03.276 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.String' ...
+2024-10-04 00:05:03.277 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.String' using the name '' in request data ...
+2024-10-04 00:05:03.278 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'a' of type 'System.String'.
+2024-10-04 00:05:03.279 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.String'.
+2024-10-04 00:05:03.280 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.String'.
+2024-10-04 00:05:03.281 +03:00 [DBG] Attempting to validate the bound parameter 'a' of type 'System.String' ...
+2024-10-04 00:05:03.283 +03:00 [DBG] Done attempting to validate the bound parameter 'a' of type 'System.String'.
+2024-10-04 00:05:03.284 +03:00 [DBG] The request has model state errors, returning an error response.
+2024-10-04 00:05:03.285 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-10-04 00:05:03.286 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-04 00:05:03.287 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-04 00:05:03.288 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-04 00:05:03.290 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-04 00:05:03.291 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-10-04 00:05:03.293 +03:00 [INF] Executed action VKBot.Controllers.CallbackController.Callback (VKBot) in 19.7845ms
+2024-10-04 00:05:03.294 +03:00 [INF] Executed endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:05:03.295 +03:00 [DBG] Connection id "0HN73TS080J3A" completed keep alive response.
+2024-10-04 00:05:03.296 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 400 null application/problem+json; charset=utf-8 46.8732ms
+2024-10-04 00:05:45.743 +03:00 [DBG] Connection id "0HN73TS080J38" received FIN.
+2024-10-04 00:05:45.747 +03:00 [DBG] Connection id "0HN73TS080J38" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:05:45.748 +03:00 [DBG] Connection id "0HN73TS080J38" disconnecting.
+2024-10-04 00:05:45.753 +03:00 [DBG] Connection id "0HN73TS080J38" stopped.
+2024-10-04 00:06:23.129 +03:00 [DBG] Connection id "0HN73TS080J39" received FIN.
+2024-10-04 00:06:23.133 +03:00 [DBG] Connection id "0HN73TS080J39" disconnecting.
+2024-10-04 00:06:23.133 +03:00 [DBG] Connection id "0HN73TS080J39" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:06:23.135 +03:00 [DBG] Connection id "0HN73TS080J39" stopped.
+2024-10-04 00:06:33.697 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-04 00:06:33.784 +03:00 [DBG] Hosting starting
+2024-10-04 00:06:33.836 +03:00 [WRN] The WebRootPath was not found: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\wwwroot. Static files may be unavailable.
+2024-10-04 00:06:33.908 +03:00 [INF] Now listening on: http://localhost:5137
+2024-10-04 00:06:33.910 +03:00 [DBG] Loaded hosting startup assembly VKBot
+2024-10-04 00:06:33.911 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-04 00:06:33.911 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-04 00:06:33.912 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-04 00:06:33.913 +03:00 [INF] Hosting environment: Development
+2024-10-04 00:06:33.914 +03:00 [INF] Content root path: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot
+2024-10-04 00:06:33.914 +03:00 [DBG] Hosting started
+2024-10-04 00:06:34.065 +03:00 [DBG] Connection id "0HN73TT1G3KOF" received FIN.
+2024-10-04 00:06:34.065 +03:00 [DBG] Connection id "0HN73TT1G3KOE" received FIN.
+2024-10-04 00:06:34.075 +03:00 [DBG] Connection id "0HN73TT1G3KOF" accepted.
+2024-10-04 00:06:34.075 +03:00 [DBG] Connection id "0HN73TT1G3KOE" accepted.
+2024-10-04 00:06:34.078 +03:00 [DBG] Connection id "0HN73TT1G3KOF" started.
+2024-10-04 00:06:34.079 +03:00 [DBG] Connection id "0HN73TT1G3KOE" started.
+2024-10-04 00:06:34.087 +03:00 [DBG] Connection id "0HN73TT1G3KOE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:06:34.087 +03:00 [DBG] Connection id "0HN73TT1G3KOF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:06:34.091 +03:00 [DBG] Connection id "0HN73TT1G3KOE" disconnecting.
+2024-10-04 00:06:34.092 +03:00 [DBG] Connection id "0HN73TT1G3KOF" disconnecting.
+2024-10-04 00:06:34.095 +03:00 [DBG] Connection id "0HN73TT1G3KOF" stopped.
+2024-10-04 00:06:34.095 +03:00 [DBG] Connection id "0HN73TT1G3KOE" stopped.
+2024-10-04 00:06:34.250 +03:00 [DBG] Connection id "0HN73TT1G3KOG" accepted.
+2024-10-04 00:06:34.252 +03:00 [DBG] Connection id "0HN73TT1G3KOG" started.
+2024-10-04 00:06:34.255 +03:00 [DBG] Connection id "0HN73TT1G3KOH" accepted.
+2024-10-04 00:06:34.256 +03:00 [DBG] Connection id "0HN73TT1G3KOH" started.
+2024-10-04 00:06:34.282 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5137/ - null null
+2024-10-04 00:06:34.389 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-04 00:06:34.393 +03:00 [DBG] The request path / does not match a supported file type
+2024-10-04 00:06:34.407 +03:00 [DBG] No candidates found for the request path '/'
+2024-10-04 00:06:34.408 +03:00 [DBG] Request did not match any endpoints
+2024-10-04 00:06:34.421 +03:00 [DBG] Connection id "0HN73TT1G3KOG" completed keep alive response.
+2024-10-04 00:06:34.425 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 null 147.5483ms
+2024-10-04 00:06:34.429 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-10-04 00:06:37.922 +03:00 [DBG] Connection id "0HN73TT1G3KOI" accepted.
+2024-10-04 00:06:37.923 +03:00 [DBG] Connection id "0HN73TT1G3KOI" started.
+2024-10-04 00:06:37.924 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 110
+2024-10-04 00:06:37.927 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:06:37.929 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:06:37.932 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:06:37.933 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:06:37.935 +03:00 [DBG] Request matched endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:06:37.938 +03:00 [DBG] Connection id "0HN73TT1G3KOI", Request id "0HN73TT1G3KOI:00000001": started reading request body.
+2024-10-04 00:06:37.939 +03:00 [DBG] Connection id "0HN73TT1G3KOI", Request id "0HN73TT1G3KOI:00000001": done reading request body.
+2024-10-04 00:06:38.025 +03:00 [ERR] Middleware: {
+  "group_id": 227681680,
+  "event_id": "0a0cd8e0bf5289be95f01f1278b53a3b717fdb6b",
+  "v": "5.199",
+  "type": "confirmation"
+}
+2024-10-04 00:06:38.028 +03:00 [INF] Executing endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:06:38.056 +03:00 [INF] Route matched with {action = "Callback", controller = "Callback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Callback(System.String) on controller VKBot.Controllers.CallbackController (VKBot).
+2024-10-04 00:06:38.058 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-04 00:06:38.060 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-04 00:06:38.061 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-04 00:06:38.063 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-04 00:06:38.065 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-04 00:06:38.067 +03:00 [DBG] Executing controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:06:38.070 +03:00 [DBG] Executed controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:06:38.074 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.String' ...
+2024-10-04 00:06:38.076 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.String' using the name '' in request data ...
+2024-10-04 00:06:38.078 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'a' of type 'System.String'.
+2024-10-04 00:06:38.080 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.String'.
+2024-10-04 00:06:38.081 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.String'.
+2024-10-04 00:06:38.082 +03:00 [DBG] Attempting to validate the bound parameter 'a' of type 'System.String' ...
+2024-10-04 00:06:38.087 +03:00 [DBG] Done attempting to validate the bound parameter 'a' of type 'System.String'.
+2024-10-04 00:06:38.090 +03:00 [DBG] The request has model state errors, returning an error response.
+2024-10-04 00:06:38.092 +03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-10-04 00:06:38.095 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-04 00:06:38.097 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-04 00:06:38.099 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-10-04 00:06:38.110 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-10-04 00:06:38.113 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-10-04 00:06:38.169 +03:00 [INF] Executed action VKBot.Controllers.CallbackController.Callback (VKBot) in 100.7975ms
+2024-10-04 00:06:38.171 +03:00 [INF] Executed endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:06:38.173 +03:00 [DBG] Connection id "0HN73TT1G3KOI" completed keep alive response.
+2024-10-04 00:06:38.175 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 400 null application/problem+json; charset=utf-8 250.3311ms
+2024-10-04 00:07:21.578 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-04 00:07:21.678 +03:00 [DBG] Hosting starting
+2024-10-04 00:07:21.738 +03:00 [WRN] The WebRootPath was not found: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\wwwroot. Static files may be unavailable.
+2024-10-04 00:07:21.818 +03:00 [INF] Now listening on: http://localhost:5137
+2024-10-04 00:07:21.819 +03:00 [DBG] Loaded hosting startup assembly VKBot
+2024-10-04 00:07:21.820 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-04 00:07:21.821 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-04 00:07:21.822 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-04 00:07:21.823 +03:00 [INF] Hosting environment: Development
+2024-10-04 00:07:21.824 +03:00 [INF] Content root path: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot
+2024-10-04 00:07:21.824 +03:00 [DBG] Hosting started
+2024-10-04 00:07:22.245 +03:00 [DBG] Connection id "0HN73TTFRJ6DO" accepted.
+2024-10-04 00:07:22.248 +03:00 [DBG] Connection id "0HN73TTFRJ6DO" started.
+2024-10-04 00:07:22.253 +03:00 [DBG] Connection id "0HN73TTFRJ6DP" accepted.
+2024-10-04 00:07:22.255 +03:00 [DBG] Connection id "0HN73TTFRJ6DP" started.
+2024-10-04 00:07:22.290 +03:00 [DBG] Connection id "0HN73TTFRJ6DP" received FIN.
+2024-10-04 00:07:22.290 +03:00 [DBG] Connection id "0HN73TTFRJ6DO" received FIN.
+2024-10-04 00:07:22.297 +03:00 [DBG] Connection id "0HN73TTFRJ6DP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:07:22.297 +03:00 [DBG] Connection id "0HN73TTFRJ6DO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:07:22.303 +03:00 [DBG] Connection id "0HN73TTFRJ6DP" disconnecting.
+2024-10-04 00:07:22.304 +03:00 [DBG] Connection id "0HN73TTFRJ6DO" disconnecting.
+2024-10-04 00:07:22.312 +03:00 [DBG] Connection id "0HN73TTFRJ6DP" stopped.
+2024-10-04 00:07:22.312 +03:00 [DBG] Connection id "0HN73TTFRJ6DO" stopped.
+2024-10-04 00:07:22.582 +03:00 [DBG] Connection id "0HN73TTFRJ6DQ" accepted.
+2024-10-04 00:07:22.584 +03:00 [DBG] Connection id "0HN73TTFRJ6DQ" started.
+2024-10-04 00:07:22.586 +03:00 [DBG] Connection id "0HN73TTFRJ6DR" accepted.
+2024-10-04 00:07:22.588 +03:00 [DBG] Connection id "0HN73TTFRJ6DR" started.
+2024-10-04 00:07:22.616 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5137/ - null null
+2024-10-04 00:07:22.732 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-04 00:07:22.739 +03:00 [DBG] The request path / does not match a supported file type
+2024-10-04 00:07:22.752 +03:00 [DBG] No candidates found for the request path '/'
+2024-10-04 00:07:22.754 +03:00 [DBG] Request did not match any endpoints
+2024-10-04 00:07:22.768 +03:00 [DBG] Connection id "0HN73TTFRJ6DQ" completed keep alive response.
+2024-10-04 00:07:22.770 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 null 159.1089ms
+2024-10-04 00:07:22.774 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-10-04 00:07:29.842 +03:00 [DBG] Connection id "0HN73TTFRJ6DS" accepted.
+2024-10-04 00:07:29.843 +03:00 [DBG] Connection id "0HN73TTFRJ6DS" started.
+2024-10-04 00:07:29.845 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 110
+2024-10-04 00:07:29.847 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:07:29.850 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:07:29.852 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:07:29.853 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:07:29.942 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Callback (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:07:29.996 +03:00 [DBG] Connection id "0HN73TTFRJ6DS" completed keep alive response.
+2024-10-04 00:07:29.997 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 152.4207ms
+2024-10-04 00:07:30.000 +03:00 [DBG] Connection id "0HN73TTFRJ6DS", Request id "0HN73TTFRJ6DS:00000001": started reading request body.
+2024-10-04 00:07:30.001 +03:00 [DBG] Connection id "0HN73TTFRJ6DS", Request id "0HN73TTFRJ6DS:00000001": done reading request body.
+2024-10-04 00:08:23.016 +03:00 [DBG] Connection id "0HN73TTFRJ6DR" received FIN.
+2024-10-04 00:08:23.017 +03:00 [DBG] Connection id "0HN73TTFRJ6DR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:08:23.018 +03:00 [DBG] Connection id "0HN73TTFRJ6DR" disconnecting.
+2024-10-04 00:08:23.021 +03:00 [DBG] Connection id "0HN73TTFRJ6DR" stopped.
+2024-10-04 00:09:00.636 +03:00 [DBG] Connection id "0HN73TTFRJ6DS" received FIN.
+2024-10-04 00:09:00.642 +03:00 [DBG] Connection id "0HN73TTFRJ6DS" disconnecting.
+2024-10-04 00:09:00.643 +03:00 [DBG] Connection id "0HN73TTFRJ6DS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:09:00.656 +03:00 [DBG] Connection id "0HN73TTFRJ6DS" stopped.
+2024-10-04 00:12:35.384 +03:00 [DBG] Connection id "0HN73TTFRJ6DT" accepted.
+2024-10-04 00:12:35.385 +03:00 [DBG] Connection id "0HN73TTFRJ6DT" started.
+2024-10-04 00:12:35.387 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 565
+2024-10-04 00:12:35.389 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:12:35.390 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:12:35.390 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:12:35.391 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:12:35.421 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Callback (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:12:35.425 +03:00 [DBG] Connection id "0HN73TTFRJ6DT" completed keep alive response.
+2024-10-04 00:12:35.426 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 39.3371ms
+2024-10-04 00:12:35.428 +03:00 [DBG] Connection id "0HN73TTFRJ6DT", Request id "0HN73TTFRJ6DT:00000001": started reading request body.
+2024-10-04 00:12:35.429 +03:00 [DBG] Connection id "0HN73TTFRJ6DT", Request id "0HN73TTFRJ6DT:00000001": done reading request body.
+2024-10-04 00:13:23.301 +03:00 [DBG] Connection id "0HN73TTFRJ6DQ" received FIN.
+2024-10-04 00:13:23.302 +03:00 [DBG] Connection id "0HN73TTFRJ6DQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:13:23.303 +03:00 [DBG] Connection id "0HN73TTFRJ6DQ" disconnecting.
+2024-10-04 00:13:23.307 +03:00 [DBG] Connection id "0HN73TTFRJ6DQ" stopped.
+2024-10-04 00:13:29.395 +03:00 [DBG] Connection id "0HN73TTFRJ6DU" accepted.
+2024-10-04 00:13:29.396 +03:00 [DBG] Connection id "0HN73TTFRJ6DU" started.
+2024-10-04 00:13:29.404 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 565
+2024-10-04 00:13:29.407 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:13:29.408 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:13:29.409 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:13:29.410 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:13:29.439 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Callback (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:13:29.442 +03:00 [DBG] Connection id "0HN73TTFRJ6DU" completed keep alive response.
+2024-10-04 00:13:29.443 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 39.0795ms
+2024-10-04 00:13:29.445 +03:00 [DBG] Connection id "0HN73TTFRJ6DU", Request id "0HN73TTFRJ6DU:00000001": started reading request body.
+2024-10-04 00:13:29.446 +03:00 [DBG] Connection id "0HN73TTFRJ6DU", Request id "0HN73TTFRJ6DU:00000001": done reading request body.
+2024-10-04 00:14:06.596 +03:00 [DBG] Connection id "0HN73TTFRJ6DT" received FIN.
+2024-10-04 00:14:06.637 +03:00 [DBG] Connection id "0HN73TTFRJ6DT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:14:06.638 +03:00 [DBG] Connection id "0HN73TTFRJ6DT" disconnecting.
+2024-10-04 00:14:06.641 +03:00 [DBG] Connection id "0HN73TTFRJ6DT" stopped.
+2024-10-04 00:14:13.305 +03:00 [DBG] Connection id "0HN73TTFRJ6DV" accepted.
+2024-10-04 00:14:13.306 +03:00 [DBG] Connection id "0HN73TTFRJ6DV" started.
+2024-10-04 00:14:13.307 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 565
+2024-10-04 00:14:13.309 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:14:13.310 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:14:13.311 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:14:13.312 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:14:13.345 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Callback (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:14:13.350 +03:00 [DBG] Connection id "0HN73TTFRJ6DV" completed keep alive response.
+2024-10-04 00:14:13.352 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 44.3249ms
+2024-10-04 00:14:13.358 +03:00 [DBG] Connection id "0HN73TTFRJ6DV", Request id "0HN73TTFRJ6DV:00000001": started reading request body.
+2024-10-04 00:14:13.360 +03:00 [DBG] Connection id "0HN73TTFRJ6DV", Request id "0HN73TTFRJ6DV:00000001": done reading request body.
+2024-10-04 00:15:00.827 +03:00 [DBG] Connection id "0HN73TTFRJ6DU" received FIN.
+2024-10-04 00:15:00.832 +03:00 [DBG] Connection id "0HN73TTFRJ6DU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:15:00.833 +03:00 [DBG] Connection id "0HN73TTFRJ6DU" disconnecting.
+2024-10-04 00:15:00.837 +03:00 [DBG] Connection id "0HN73TTFRJ6DU" stopped.
+2024-10-04 00:15:03.553 +03:00 [DBG] Connection id "0HN73TTFRJ6E0" accepted.
+2024-10-04 00:15:03.554 +03:00 [DBG] Connection id "0HN73TTFRJ6E0" started.
+2024-10-04 00:15:03.556 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 567
+2024-10-04 00:15:03.557 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:15:03.558 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:15:03.559 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:15:03.560 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:15:03.588 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Callback (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:15:03.591 +03:00 [DBG] Connection id "0HN73TTFRJ6E0" completed keep alive response.
+2024-10-04 00:15:03.592 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 36.7484ms
+2024-10-04 00:15:03.595 +03:00 [DBG] Connection id "0HN73TTFRJ6E0", Request id "0HN73TTFRJ6E0:00000001": started reading request body.
+2024-10-04 00:15:03.596 +03:00 [DBG] Connection id "0HN73TTFRJ6E0", Request id "0HN73TTFRJ6E0:00000001": done reading request body.
+2024-10-04 00:15:44.376 +03:00 [DBG] Connection id "0HN73TTFRJ6DV" received FIN.
+2024-10-04 00:15:44.378 +03:00 [DBG] Connection id "0HN73TTFRJ6DV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:15:44.381 +03:00 [DBG] Connection id "0HN73TTFRJ6DV" disconnecting.
+2024-10-04 00:15:44.387 +03:00 [DBG] Connection id "0HN73TTFRJ6DV" stopped.
+2024-10-04 00:16:09.363 +03:00 [DBG] Connection id "0HN73TTFRJ6E1" accepted.
+2024-10-04 00:16:09.368 +03:00 [DBG] Connection id "0HN73TTFRJ6E1" started.
+2024-10-04 00:16:09.369 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 565
+2024-10-04 00:16:09.371 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:16:09.371 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:16:09.373 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:16:09.374 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:16:09.409 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Callback (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:16:09.416 +03:00 [DBG] Connection id "0HN73TTFRJ6E1" completed keep alive response.
+2024-10-04 00:16:09.418 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 49.3988ms
+2024-10-04 00:16:09.421 +03:00 [DBG] Connection id "0HN73TTFRJ6E1", Request id "0HN73TTFRJ6E1:00000001": started reading request body.
+2024-10-04 00:16:09.422 +03:00 [DBG] Connection id "0HN73TTFRJ6E1", Request id "0HN73TTFRJ6E1:00000001": done reading request body.
+2024-10-04 00:16:34.205 +03:00 [DBG] Connection id "0HN73TTFRJ6E0" received FIN.
+2024-10-04 00:16:34.213 +03:00 [DBG] Connection id "0HN73TTFRJ6E0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:16:34.214 +03:00 [DBG] Connection id "0HN73TTFRJ6E0" disconnecting.
+2024-10-04 00:16:34.219 +03:00 [DBG] Connection id "0HN73TTFRJ6E0" stopped.
+2024-10-04 00:16:36.424 +03:00 [DBG] Connection id "0HN73TTFRJ6E2" accepted.
+2024-10-04 00:16:36.425 +03:00 [DBG] Connection id "0HN73TTFRJ6E2" started.
+2024-10-04 00:16:36.426 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 565
+2024-10-04 00:16:36.428 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:16:36.429 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:16:36.430 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:16:36.431 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:16:36.464 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Callback (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:16:36.467 +03:00 [DBG] Connection id "0HN73TTFRJ6E2" completed keep alive response.
+2024-10-04 00:16:36.468 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 42.0898ms
+2024-10-04 00:16:36.472 +03:00 [DBG] Connection id "0HN73TTFRJ6E2", Request id "0HN73TTFRJ6E2:00000001": started reading request body.
+2024-10-04 00:16:36.473 +03:00 [DBG] Connection id "0HN73TTFRJ6E2", Request id "0HN73TTFRJ6E2:00000001": done reading request body.
+2024-10-04 00:17:40.738 +03:00 [DBG] Connection id "0HN73TTFRJ6E1" received FIN.
+2024-10-04 00:17:40.739 +03:00 [DBG] Connection id "0HN73TTFRJ6E1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:17:40.740 +03:00 [DBG] Connection id "0HN73TTFRJ6E1" disconnecting.
+2024-10-04 00:17:40.745 +03:00 [DBG] Connection id "0HN73TTFRJ6E1" stopped.
+2024-10-04 00:18:08.255 +03:00 [DBG] Connection id "0HN73TTFRJ6E2" received FIN.
+2024-10-04 00:18:08.258 +03:00 [DBG] Connection id "0HN73TTFRJ6E2" disconnecting.
+2024-10-04 00:18:08.259 +03:00 [DBG] Connection id "0HN73TTFRJ6E2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:18:08.264 +03:00 [DBG] Connection id "0HN73TTFRJ6E2" stopped.
+2024-10-04 00:18:11.362 +03:00 [DBG] Connection id "0HN73TTFRJ6E3" accepted.
+2024-10-04 00:18:11.367 +03:00 [DBG] Connection id "0HN73TTFRJ6E3" started.
+2024-10-04 00:18:11.367 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 567
+2024-10-04 00:18:11.369 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:18:11.369 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:18:11.369 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:18:11.370 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:18:11.398 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Callback (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:18:11.401 +03:00 [DBG] Connection id "0HN73TTFRJ6E3" completed keep alive response.
+2024-10-04 00:18:11.402 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 34.9232ms
+2024-10-04 00:18:11.405 +03:00 [DBG] Connection id "0HN73TTFRJ6E3", Request id "0HN73TTFRJ6E3:00000001": started reading request body.
+2024-10-04 00:18:11.406 +03:00 [DBG] Connection id "0HN73TTFRJ6E3", Request id "0HN73TTFRJ6E3:00000001": done reading request body.
+2024-10-04 00:21:02.802 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-04 00:21:02.890 +03:00 [DBG] Hosting starting
+2024-10-04 00:21:02.980 +03:00 [WRN] The WebRootPath was not found: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\wwwroot. Static files may be unavailable.
+2024-10-04 00:21:03.057 +03:00 [INF] Now listening on: http://localhost:5137
+2024-10-04 00:21:03.061 +03:00 [DBG] Loaded hosting startup assembly VKBot
+2024-10-04 00:21:03.064 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-04 00:21:03.065 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-04 00:21:03.066 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-04 00:21:03.067 +03:00 [INF] Hosting environment: Development
+2024-10-04 00:21:03.069 +03:00 [INF] Content root path: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot
+2024-10-04 00:21:03.073 +03:00 [DBG] Hosting started
+2024-10-04 00:21:03.368 +03:00 [DBG] Connection id "0HN73U54IDS07" accepted.
+2024-10-04 00:21:03.369 +03:00 [DBG] Connection id "0HN73U54IDS07" started.
+2024-10-04 00:21:03.378 +03:00 [DBG] Connection id "0HN73U54IDS08" accepted.
+2024-10-04 00:21:03.379 +03:00 [DBG] Connection id "0HN73U54IDS08" started.
+2024-10-04 00:21:03.394 +03:00 [DBG] Connection id "0HN73U54IDS07" received FIN.
+2024-10-04 00:21:03.394 +03:00 [DBG] Connection id "0HN73U54IDS08" received FIN.
+2024-10-04 00:21:03.407 +03:00 [DBG] Connection id "0HN73U54IDS07" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:21:03.407 +03:00 [DBG] Connection id "0HN73U54IDS08" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:21:03.410 +03:00 [DBG] Connection id "0HN73U54IDS07" disconnecting.
+2024-10-04 00:21:03.410 +03:00 [DBG] Connection id "0HN73U54IDS08" disconnecting.
+2024-10-04 00:21:03.417 +03:00 [DBG] Connection id "0HN73U54IDS07" stopped.
+2024-10-04 00:21:03.417 +03:00 [DBG] Connection id "0HN73U54IDS08" stopped.
+2024-10-04 00:21:03.603 +03:00 [DBG] Connection id "0HN73U54IDS09" accepted.
+2024-10-04 00:21:03.605 +03:00 [DBG] Connection id "0HN73U54IDS09" started.
+2024-10-04 00:21:03.637 +03:00 [DBG] Connection id "0HN73U54IDS0A" accepted.
+2024-10-04 00:21:03.638 +03:00 [DBG] Connection id "0HN73U54IDS0A" started.
+2024-10-04 00:21:03.644 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5137/ - null null
+2024-10-04 00:21:04.060 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-04 00:21:04.067 +03:00 [DBG] The request path / does not match a supported file type
+2024-10-04 00:21:04.078 +03:00 [DBG] No candidates found for the request path '/'
+2024-10-04 00:21:04.081 +03:00 [DBG] Request did not match any endpoints
+2024-10-04 00:21:04.108 +03:00 [DBG] Connection id "0HN73U54IDS09" completed keep alive response.
+2024-10-04 00:21:04.110 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 null 472.3446ms
+2024-10-04 00:21:04.115 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-10-04 00:21:17.815 +03:00 [DBG] Connection id "0HN73U54IDS0B" accepted.
+2024-10-04 00:21:17.819 +03:00 [DBG] Connection id "0HN73U54IDS0B" started.
+2024-10-04 00:21:17.822 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 110
+2024-10-04 00:21:17.825 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:21:17.828 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:21:17.830 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:21:17.835 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Method (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:21:17.913 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Method (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:21:17.969 +03:00 [DBG] Connection id "0HN73U54IDS0B" completed keep alive response.
+2024-10-04 00:21:17.971 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 148.6308ms
+2024-10-04 00:21:17.975 +03:00 [DBG] Connection id "0HN73U54IDS0B", Request id "0HN73U54IDS0B:00000001": started reading request body.
+2024-10-04 00:21:17.976 +03:00 [DBG] Connection id "0HN73U54IDS0B", Request id "0HN73U54IDS0B:00000001": done reading request body.
+2024-10-04 00:21:38.333 +03:00 [DBG] Connection id "0HN73U54IDS0C" accepted.
+2024-10-04 00:21:38.341 +03:00 [DBG] Connection id "0HN73U54IDS0C" started.
+2024-10-04 00:21:38.342 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 565
+2024-10-04 00:21:38.344 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:21:38.345 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:21:38.345 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:21:38.346 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Method (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:21:38.376 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Method (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:21:38.379 +03:00 [DBG] Connection id "0HN73U54IDS0C" completed keep alive response.
+2024-10-04 00:21:38.380 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 38.6075ms
+2024-10-04 00:21:38.383 +03:00 [DBG] Connection id "0HN73U54IDS0C", Request id "0HN73U54IDS0C:00000001": started reading request body.
+2024-10-04 00:21:38.384 +03:00 [DBG] Connection id "0HN73U54IDS0C", Request id "0HN73U54IDS0C:00000001": done reading request body.
+2024-10-04 00:21:58.298 +03:00 [DBG] Connection id "0HN73U54IDS0D" accepted.
+2024-10-04 00:21:58.299 +03:00 [DBG] Connection id "0HN73U54IDS0D" started.
+2024-10-04 00:21:58.300 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 567
+2024-10-04 00:21:58.304 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:21:58.305 +03:00 [DBG] 2 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:21:58.306 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:21:58.307 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Method (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:21:58.338 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+VKBot.Controllers.CallbackController.Callback (VKBot)
+VKBot.Controllers.CallbackController.Method (VKBot)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, Span`1 candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-04 00:21:58.341 +03:00 [DBG] Connection id "0HN73U54IDS0D" completed keep alive response.
+2024-10-04 00:21:58.343 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 500 null text/plain; charset=utf-8 42.5717ms
+2024-10-04 00:21:58.345 +03:00 [DBG] Connection id "0HN73U54IDS0D", Request id "0HN73U54IDS0D:00000001": started reading request body.
+2024-10-04 00:21:58.346 +03:00 [DBG] Connection id "0HN73U54IDS0D", Request id "0HN73U54IDS0D:00000001": done reading request body.
+2024-10-04 00:22:12.106 +03:00 [DBG] Connection id "0HN73U54IDS0A" received FIN.
+2024-10-04 00:22:12.115 +03:00 [DBG] Connection id "0HN73U54IDS0A" disconnecting.
+2024-10-04 00:22:12.119 +03:00 [DBG] Connection id "0HN73U54IDS0A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:22:25.175 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-04 00:22:25.268 +03:00 [DBG] Hosting starting
+2024-10-04 00:22:25.324 +03:00 [WRN] The WebRootPath was not found: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\wwwroot. Static files may be unavailable.
+2024-10-04 00:22:25.395 +03:00 [INF] Now listening on: http://localhost:5137
+2024-10-04 00:22:25.397 +03:00 [DBG] Loaded hosting startup assembly VKBot
+2024-10-04 00:22:25.398 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-04 00:22:25.399 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-04 00:22:25.400 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-04 00:22:25.401 +03:00 [INF] Hosting environment: Development
+2024-10-04 00:22:25.402 +03:00 [INF] Content root path: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot
+2024-10-04 00:22:25.403 +03:00 [DBG] Hosting started
+2024-10-04 00:22:25.807 +03:00 [DBG] Connection id "0HN73U5T4K76S" accepted.
+2024-10-04 00:22:25.807 +03:00 [DBG] Connection id "0HN73U5T4K76T" accepted.
+2024-10-04 00:22:25.810 +03:00 [DBG] Connection id "0HN73U5T4K76S" started.
+2024-10-04 00:22:25.811 +03:00 [DBG] Connection id "0HN73U5T4K76T" started.
+2024-10-04 00:22:25.833 +03:00 [DBG] Connection id "0HN73U5T4K76S" received FIN.
+2024-10-04 00:22:25.833 +03:00 [DBG] Connection id "0HN73U5T4K76T" received FIN.
+2024-10-04 00:22:25.842 +03:00 [DBG] Connection id "0HN73U5T4K76S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:22:25.842 +03:00 [DBG] Connection id "0HN73U5T4K76T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-04 00:22:25.844 +03:00 [DBG] Connection id "0HN73U5T4K76S" disconnecting.
+2024-10-04 00:22:25.845 +03:00 [DBG] Connection id "0HN73U5T4K76T" disconnecting.
+2024-10-04 00:22:25.851 +03:00 [DBG] Connection id "0HN73U5T4K76S" stopped.
+2024-10-04 00:22:25.851 +03:00 [DBG] Connection id "0HN73U5T4K76T" stopped.
+2024-10-04 00:22:26.141 +03:00 [DBG] Connection id "0HN73U5T4K76U" accepted.
+2024-10-04 00:22:26.143 +03:00 [DBG] Connection id "0HN73U5T4K76U" started.
+2024-10-04 00:22:26.169 +03:00 [DBG] Connection id "0HN73U5T4K76V" accepted.
+2024-10-04 00:22:26.171 +03:00 [DBG] Connection id "0HN73U5T4K76V" started.
+2024-10-04 00:22:26.176 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5137/ - null null
+2024-10-04 00:22:26.290 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-04 00:22:26.295 +03:00 [DBG] The request path / does not match a supported file type
+2024-10-04 00:22:26.306 +03:00 [DBG] No candidates found for the request path '/'
+2024-10-04 00:22:26.307 +03:00 [DBG] Request did not match any endpoints
+2024-10-04 00:22:26.331 +03:00 [DBG] Connection id "0HN73U5T4K76U" completed keep alive response.
+2024-10-04 00:22:26.334 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 null 163.417ms
+2024-10-04 00:22:26.338 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-10-04 00:22:29.375 +03:00 [DBG] Connection id "0HN73U5T4K770" accepted.
+2024-10-04 00:22:29.377 +03:00 [DBG] Connection id "0HN73U5T4K770" started.
+2024-10-04 00:22:29.379 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 567
+2024-10-04 00:22:29.382 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:22:29.386 +03:00 [DBG] 1 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:22:29.389 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:22:29.391 +03:00 [DBG] Request matched endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:22:29.394 +03:00 [DBG] Connection id "0HN73U5T4K770", Request id "0HN73U5T4K770:00000001": started reading request body.
+2024-10-04 00:22:29.395 +03:00 [DBG] Connection id "0HN73U5T4K770", Request id "0HN73U5T4K770:00000001": done reading request body.
+2024-10-04 00:22:29.482 +03:00 [ERR] Middleware: {
+  "group_id": 227681680,
+  "type": "message_new",
+  "event_id": "9af1a29eb08f956f005ad820c53aa236a64bad3d",
+  "v": "5.199",
+  "object": {
+    "message": {
+      "date": 1727987927,
+      "from_id": 651565729,
+      "id": 203,
+      "version": 10000290,
+      "out": 0,
+      "important": false,
+      "is_hidden": false,
+      "attachments": [],
+      "conversation_message_id": 199,
+      "fwd_messages": [],
+      "text": "5",
+      "peer_id": 651565729,
+      "random_id": 0
+    },
+    "client_info": {
+      "button_actions": [
+        "text",
+        "vkpay",
+        "open_app",
+        "location",
+        "open_link",
+        "open_photo",
+        "callback",
+        "intent_subscribe",
+        "intent_unsubscribe"
+      ],
+      "keyboard": true,
+      "inline_keyboard": true,
+      "carousel": true,
+      "lang_id": 0
+    }
+  }
+}
+2024-10-04 00:22:29.487 +03:00 [INF] Executing endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:22:29.527 +03:00 [INF] Route matched with {action = "Callback", controller = "Callback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Callback(System.Text.Json.JsonElement) on controller VKBot.Controllers.CallbackController (VKBot).
+2024-10-04 00:22:29.530 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-04 00:22:29.532 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-04 00:22:29.534 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-04 00:22:29.536 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-04 00:22:29.537 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-04 00:22:29.539 +03:00 [DBG] Executing controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:22:29.541 +03:00 [DBG] Executed controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:22:29.546 +03:00 [DBG] Attempting to bind parameter 'json' of type 'System.Text.Json.JsonElement' ...
+2024-10-04 00:22:29.549 +03:00 [DBG] Attempting to bind parameter 'json' of type 'System.Text.Json.JsonElement' using the name '' in request data ...
+2024-10-04 00:22:29.551 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-04 00:22:29.572 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.Text.Json.JsonElement'
+2024-10-04 00:22:29.573 +03:00 [DBG] Done attempting to bind parameter 'json' of type 'System.Text.Json.JsonElement'.
+2024-10-04 00:22:29.574 +03:00 [DBG] Done attempting to bind parameter 'json' of type 'System.Text.Json.JsonElement'.
+2024-10-04 00:22:29.576 +03:00 [DBG] Attempting to validate the bound parameter 'json' of type 'System.Text.Json.JsonElement' ...
+2024-10-04 00:22:29.580 +03:00 [DBG] Done attempting to validate the bound parameter 'json' of type 'System.Text.Json.JsonElement'.
+2024-10-04 00:22:29.602 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-10-04 00:22:29.606 +03:00 [INF] Executed action VKBot.Controllers.CallbackController.Callback (VKBot) in 64.8034ms
+2024-10-04 00:22:29.608 +03:00 [INF] Executed endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:22:29.609 +03:00 [DBG] Connection id "0HN73U5T4K770" completed keep alive response.
+2024-10-04 00:22:29.612 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 200 0 null 233.508ms
+2024-10-04 00:22:30.578 +03:00 [DBG] Connection id "0HN73U5T4K771" accepted.
+2024-10-04 00:22:30.580 +03:00 [DBG] Connection id "0HN73U5T4K771" started.
+2024-10-04 00:22:30.582 +03:00 [INF] Request starting HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - application/json 110
+2024-10-04 00:22:30.586 +03:00 [DBG] POST requests are not supported
+2024-10-04 00:22:30.587 +03:00 [DBG] 1 candidate(s) found for the request path '/api/callback'
+2024-10-04 00:22:30.588 +03:00 [DBG] Endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)' with route pattern 'api/Callback' is valid for the request path '/api/callback'
+2024-10-04 00:22:30.589 +03:00 [DBG] Request matched endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:22:30.590 +03:00 [DBG] Connection id "0HN73U5T4K771", Request id "0HN73U5T4K771:00000001": started reading request body.
+2024-10-04 00:22:30.591 +03:00 [DBG] Connection id "0HN73U5T4K771", Request id "0HN73U5T4K771:00000001": done reading request body.
+2024-10-04 00:22:30.593 +03:00 [ERR] Middleware: {
+  "group_id": 227681680,
+  "event_id": "b67b6b82b5be756eaa6e966197d4876f9e032e70",
+  "v": "5.199",
+  "type": "confirmation"
+}
+2024-10-04 00:22:30.594 +03:00 [INF] Executing endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:22:30.595 +03:00 [INF] Route matched with {action = "Callback", controller = "Callback"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Callback(System.Text.Json.JsonElement) on controller VKBot.Controllers.CallbackController (VKBot).
+2024-10-04 00:22:30.597 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-04 00:22:30.599 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-04 00:22:30.600 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-04 00:22:30.602 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-04 00:22:30.603 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-04 00:22:30.605 +03:00 [DBG] Executing controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:22:30.606 +03:00 [DBG] Executed controller factory for controller VKBot.Controllers.CallbackController (VKBot)
+2024-10-04 00:22:30.609 +03:00 [DBG] Attempting to bind parameter 'json' of type 'System.Text.Json.JsonElement' ...
+2024-10-04 00:22:30.610 +03:00 [DBG] Attempting to bind parameter 'json' of type 'System.Text.Json.JsonElement' using the name '' in request data ...
+2024-10-04 00:22:30.612 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-04 00:22:30.613 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'System.Text.Json.JsonElement'
+2024-10-04 00:22:30.614 +03:00 [DBG] Done attempting to bind parameter 'json' of type 'System.Text.Json.JsonElement'.
+2024-10-04 00:22:30.615 +03:00 [DBG] Done attempting to bind parameter 'json' of type 'System.Text.Json.JsonElement'.
+2024-10-04 00:22:30.616 +03:00 [DBG] Attempting to validate the bound parameter 'json' of type 'System.Text.Json.JsonElement' ...
+2024-10-04 00:22:30.617 +03:00 [DBG] Done attempting to validate the bound parameter 'json' of type 'System.Text.Json.JsonElement'.
+2024-10-04 00:22:30.619 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-04 00:22:30.623 +03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-04 00:22:30.624 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-04 00:22:30.624 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-04 00:22:30.626 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-10-04 00:22:30.627 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-04 00:22:30.629 +03:00 [INF] Executed action VKBot.Controllers.CallbackController.Callback (VKBot) in 23.8749ms
+2024-10-04 00:22:30.630 +03:00 [INF] Executed endpoint 'VKBot.Controllers.CallbackController.Callback (VKBot)'
+2024-10-04 00:22:30.631 +03:00 [DBG] Connection id "0HN73U5T4K771" completed keep alive response.
+2024-10-04 00:22:30.632 +03:00 [INF] Request finished HTTP/1.1 POST http://trusting-raptor-admittedly.ngrok-free.app/api/callback - 200 null text/plain; charset=utf-8 51.4573ms

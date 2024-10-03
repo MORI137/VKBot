@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00469D81-1EC8-4AF7-9E0E-EC488794134B}|VKBot\\VKBot.csproj|c:\\studies\\university\\fifthsemestr\\tpd\\vkbot\\vkbot\\vkbot\\filters\\modifyrequestbodymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00469D81-1EC8-4AF7-9E0E-EC488794134B}|VKBot\\VKBot.csproj|solutionrelative:vkbot\\filters\\modifyrequestbodymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00469D81-1EC8-4AF7-9E0E-EC488794134B}|VKBot\\VKBot.csproj|c:\\studies\\university\\fifthsemestr\\tpd\\vkbot\\vkbot\\vkbot\\controllers\\callbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00469D81-1EC8-4AF7-9E0E-EC488794134B}|VKBot\\VKBot.csproj|solutionrelative:vkbot\\controllers\\callbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00469D81-1EC8-4AF7-9E0E-EC488794134B}|VKBot\\VKBot.csproj|c:\\studies\\university\\fifthsemestr\\tpd\\vkbot\\vkbot\\vkbot\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00469D81-1EC8-4AF7-9E0E-EC488794134B}|VKBot\\VKBot.csproj|solutionrelative:vkbot\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00469D81-1EC8-4AF7-9E0E-EC488794134B}|VKBot\\VKBot.csproj|c:\\studies\\university\\fifthsemestr\\tpd\\vkbot\\vkbot\\vkbot\\middleware\\modifyrequestbodymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00469D81-1EC8-4AF7-9E0E-EC488794134B}|VKBot\\VKBot.csproj|solutionrelative:vkbot\\middleware\\modifyrequestbodymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00469D81-1EC8-4AF7-9E0E-EC488794134B}|VKBot\\VKBot.csproj|c:\\studies\\university\\fifthsemestr\\tpd\\vkbot\\vkbot\\vkbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "VKBot\\Models\\Message.cs",
+              "ToolTip": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Models\\Message.cs",
+              "RelativeToolTip": "VKBot\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:19:20.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ModifyRequestBodyMiddleware.cs",
-              "DocumentMoniker": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Filters\\ModifyRequestBodyMiddleware.cs",
-              "RelativeDocumentMoniker": "VKBot\\Filters\\ModifyRequestBodyMiddleware.cs",
-              "ToolTip": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Filters\\ModifyRequestBodyMiddleware.cs",
-              "RelativeToolTip": "VKBot\\Filters\\ModifyRequestBodyMiddleware.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBwAAAA9AAAA",
+              "DocumentMoniker": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Middleware\\ModifyRequestBodyMiddleware.cs",
+              "RelativeDocumentMoniker": "VKBot\\Middleware\\ModifyRequestBodyMiddleware.cs",
+              "ToolTip": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Middleware\\ModifyRequestBodyMiddleware.cs",
+              "RelativeToolTip": "VKBot\\Middleware\\ModifyRequestBodyMiddleware.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAQwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T19:25:06.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Program.cs",
               "RelativeDocumentMoniker": "VKBot\\Program.cs",
               "ToolTip": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Program.cs",
               "RelativeToolTip": "VKBot\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T18:29:16.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CallbackController.cs",
               "DocumentMoniker": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Controllers\\CallbackController.cs",
               "RelativeDocumentMoniker": "VKBot\\Controllers\\CallbackController.cs",
               "ToolTip": "C:\\studies\\University\\FifthSemestr\\TPD\\VKBot\\VKBot\\VKBot\\Controllers\\CallbackController.cs",
               "RelativeToolTip": "VKBot\\Controllers\\CallbackController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAArwDkAAAAMAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwCkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T14:19:53.901Z",
               "EditorCaption": ""
