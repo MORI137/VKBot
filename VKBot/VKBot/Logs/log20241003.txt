@@ -1,0 +1,72 @@
+2024-10-03 19:46:19.112 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-03 19:46:19.306 +03:00 [DBG] Hosting starting
+2024-10-03 19:46:19.386 +03:00 [WRN] The WebRootPath was not found: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\wwwroot. Static files may be unavailable.
+2024-10-03 19:46:19.494 +03:00 [INF] Now listening on: http://localhost:5271
+2024-10-03 19:46:19.496 +03:00 [DBG] Loaded hosting startup assembly VKBot
+2024-10-03 19:46:19.498 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-03 19:46:19.500 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-03 19:46:19.502 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-03 19:46:19.504 +03:00 [INF] Hosting environment: Development
+2024-10-03 19:46:19.505 +03:00 [INF] Content root path: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot
+2024-10-03 19:46:19.507 +03:00 [DBG] Hosting started
+2024-10-03 19:46:19.888 +03:00 [DBG] Connection id "0HN73PBK3MT00" accepted.
+2024-10-03 19:46:19.891 +03:00 [DBG] Connection id "0HN73PBK3MT00" started.
+2024-10-03 19:46:19.896 +03:00 [DBG] Connection id "0HN73PBK3MT01" accepted.
+2024-10-03 19:46:19.898 +03:00 [DBG] Connection id "0HN73PBK3MT01" started.
+2024-10-03 19:46:19.965 +03:00 [DBG] Connection id "0HN73PBK3MT00" received FIN.
+2024-10-03 19:46:19.965 +03:00 [DBG] Connection id "0HN73PBK3MT01" received FIN.
+2024-10-03 19:46:19.975 +03:00 [DBG] Connection id "0HN73PBK3MT00" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-03 19:46:19.975 +03:00 [DBG] Connection id "0HN73PBK3MT01" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-03 19:46:19.978 +03:00 [DBG] Connection id "0HN73PBK3MT00" disconnecting.
+2024-10-03 19:46:19.983 +03:00 [DBG] Connection id "0HN73PBK3MT01" disconnecting.
+2024-10-03 19:46:19.991 +03:00 [DBG] Connection id "0HN73PBK3MT01" stopped.
+2024-10-03 19:46:19.991 +03:00 [DBG] Connection id "0HN73PBK3MT00" stopped.
+2024-10-03 19:46:20.820 +03:00 [DBG] Connection id "0HN73PBK3MT02" accepted.
+2024-10-03 19:46:20.823 +03:00 [DBG] Connection id "0HN73PBK3MT02" started.
+2024-10-03 19:46:20.860 +03:00 [DBG] Connection id "0HN73PBK3MT03" accepted.
+2024-10-03 19:46:20.863 +03:00 [DBG] Connection id "0HN73PBK3MT03" started.
+2024-10-03 19:46:20.869 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5271/ - null null
+2024-10-03 19:46:21.392 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-03 19:46:21.400 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-03 19:46:21.402 +03:00 [DBG] The request path / does not match a supported file type
+2024-10-03 19:46:21.417 +03:00 [DBG] No candidates found for the request path '/'
+2024-10-03 19:46:21.419 +03:00 [DBG] Request did not match any endpoints
+2024-10-03 19:46:21.455 +03:00 [DBG] Connection id "0HN73PBK3MT02" completed keep alive response.
+2024-10-03 19:46:21.459 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5271/ - 404 0 null 598.2627ms
+2024-10-03 19:46:21.464 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5271/, Response status code: 404
+2024-10-03 19:46:41.454 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-03 19:46:41.572 +03:00 [DBG] Hosting starting
+2024-10-03 19:46:41.630 +03:00 [WRN] The WebRootPath was not found: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\wwwroot. Static files may be unavailable.
+2024-10-03 19:46:41.720 +03:00 [INF] Now listening on: http://localhost:5271
+2024-10-03 19:46:41.722 +03:00 [DBG] Loaded hosting startup assembly VKBot
+2024-10-03 19:46:41.723 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-03 19:46:41.724 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-03 19:46:41.725 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-03 19:46:41.726 +03:00 [INF] Hosting environment: Development
+2024-10-03 19:46:41.727 +03:00 [INF] Content root path: C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot
+2024-10-03 19:46:41.727 +03:00 [DBG] Hosting started
+2024-10-03 19:46:42.134 +03:00 [DBG] Connection id "0HN73PBQNS0BO" accepted.
+2024-10-03 19:46:42.137 +03:00 [DBG] Connection id "0HN73PBQNS0BO" started.
+2024-10-03 19:46:42.143 +03:00 [DBG] Connection id "0HN73PBQNS0BO" received FIN.
+2024-10-03 19:46:42.143 +03:00 [DBG] Connection id "0HN73PBQNS0BP" received FIN.
+2024-10-03 19:46:42.152 +03:00 [DBG] Connection id "0HN73PBQNS0BP" accepted.
+2024-10-03 19:46:42.154 +03:00 [DBG] Connection id "0HN73PBQNS0BP" started.
+2024-10-03 19:46:42.154 +03:00 [DBG] Connection id "0HN73PBQNS0BO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-03 19:46:42.156 +03:00 [DBG] Connection id "0HN73PBQNS0BP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-03 19:46:42.159 +03:00 [DBG] Connection id "0HN73PBQNS0BO" disconnecting.
+2024-10-03 19:46:42.159 +03:00 [DBG] Connection id "0HN73PBQNS0BP" disconnecting.
+2024-10-03 19:46:42.163 +03:00 [DBG] Connection id "0HN73PBQNS0BO" stopped.
+2024-10-03 19:46:42.164 +03:00 [DBG] Connection id "0HN73PBQNS0BP" stopped.
+2024-10-03 19:46:42.600 +03:00 [DBG] Connection id "0HN73PBQNS0BQ" accepted.
+2024-10-03 19:46:42.602 +03:00 [DBG] Connection id "0HN73PBQNS0BQ" started.
+2024-10-03 19:46:42.610 +03:00 [DBG] Connection id "0HN73PBQNS0BR" accepted.
+2024-10-03 19:46:42.612 +03:00 [DBG] Connection id "0HN73PBQNS0BR" started.
+2024-10-03 19:46:42.636 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5271/ - null null
+2024-10-03 19:46:42.776 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-03 19:46:42.785 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-10-03 19:46:42.786 +03:00 [DBG] The request path / does not match a supported file type
+2024-10-03 19:46:42.804 +03:00 [DBG] No candidates found for the request path '/'
+2024-10-03 19:46:42.806 +03:00 [DBG] Request did not match any endpoints
+2024-10-03 19:46:42.823 +03:00 [DBG] Connection id "0HN73PBQNS0BQ" completed keep alive response.
+2024-10-03 19:46:42.826 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5271/ - 404 0 null 197.0645ms
+2024-10-03 19:46:42.831 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5271/, Response status code: 404

@@ -10,19 +10,22 @@ namespace VKBot.Controllers
     [ApiController]
     public class CallbackController : Controller
     {
+        private readonly ILogger<CallbackController> _logger;
         private readonly IConfiguration _configuration;
         private readonly IVkApi _vkApi;
 
-        public CallbackController(IVkApi vkApi, IConfiguration configuration)
+        public CallbackController(IVkApi vkApi, IConfiguration configuration, ILogger<CallbackController> logger)
         {
             _vkApi = vkApi;
             _configuration = configuration;
+            _logger = logger;
         }
 
         [HttpPost]
         public IActionResult Callback(Updates msg)
         {
-            Console.WriteLine(msg.Type);
+            _logger.LogInformation(msg.Type);
+            _logger.LogInformation(_configuration["Config:Confirmation"]);
             switch (msg.Type)
             {
                 case "confirmation":

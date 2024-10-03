@@ -1,0 +1,10 @@
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\VKBot.exe
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\appsettings.Development.json
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\appsettings.json
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\VKBot.dll
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\VKBot.deps.json
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\VKBot.runtimeconfig.json
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\VKBot.pdb
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\HtmlAgilityPack.dll
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\Newtonsoft.Json.dll
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\publish\VkNet.dll
