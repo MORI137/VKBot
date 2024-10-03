@@ -70,3 +70,9 @@ C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\obj\Debug\net8.0\refint
 C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\obj\Debug\net8.0\VKBot.pdb
 C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\obj\Debug\net8.0\VKBot.genruntimeconfig.cache
 C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\obj\Debug\net8.0\ref\VKBot.dll
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\bin\Debug\net8.0\protobuf-net.dll
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\bin\Debug\net8.0\protobuf-net.Core.dll
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\bin\Debug\net8.0\VkNet.AudioBypassService.dll
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\studies\University\FifthSemestr\TPD\VKBot\VKBot\VKBot\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

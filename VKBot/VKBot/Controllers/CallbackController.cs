@@ -1,6 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Extensions.Logging;
+using System.IO;
+using System.Text;
 using VKBot.Models;
 using VkNet.Abstractions;
+using VkNet.Enums.StringEnums;
 using VkNet.Model;
 using VkNet.Utils;
 
@@ -22,27 +27,42 @@ namespace VKBot.Controllers
         }
 
         [HttpPost]
-        public IActionResult Callback(Updates msg)
+        public async Task<IActionResult> Callback([ModelBinder(BinderType = typeof(VkMessageModelBinder))][FromBody] Message msg)
         {
-            _logger.LogInformation(msg.Type);
-            _logger.LogInformation(_configuration["Config:Confirmation"]);
-            switch (msg.Type)
+            using (var reader = new StreamReader(Request.Body))
             {
-                case "confirmation":
-
-                    return Ok(_configuration["Config:Confirmation"]);
-                /*case "message_new":
-                    {
-                        _vkApi.Messages.Send(new MessagesSendParams
-                        {
-                            RandomId = new DateTime().Millisecond,
-                            PeerId = msg.PeerId.Value,
-                            Message = msg.Text
-                        });
-                        break;
-                    }*/
+                var requestBody = await reader.ReadToEndAsync();
+                _logger.LogError("Callback function" + requestBody);
+                _logger.LogError(msg.PeerId.ToString());
             }
+           
 
+            //_logger.LogError("PEEEEEEEEEEEEEEEEEEER: " + msg.PeerId);
+
+            //switch (msg.Type)
+            //{
+            //    case "confirmation":
+
+            //        return Ok(_configuration["Config:Confirmation"]);
+            //        /*case "message_new":
+            //            {
+            //                _vkApi.Messages.Send(new MessagesSendParams
+            //                {
+            //                    RandomId = new DateTime().Millisecond,
+            //                    PeerId = msg.PeerId.Value,
+            //                    Message = msg.Text
+            //                });
+            //                break;
+            //            }*/
+            //}
+            
+            _vkApi.Messages.Send(new MessagesSendParams
+            {
+                RandomId = new DateTime().Millisecond,
+                PeerId = 651565729,
+                Message = "Лох",
+                
+            });
             return Ok("ok");
         }
     }
